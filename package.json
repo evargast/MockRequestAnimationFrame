@@ -1,0 +1,47 @@
+{
+    "name": "mock-request-animation-frame",
+    "version": "1.0.0",
+    "description": "Helper function for Jest + RAF",
+    "main": "./lib/index.js",
+    "module": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublish": "npm run build",
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/evargast/MockRequestAnimationFrame.git"
+    },
+    "keywords": [
+        "react",
+        "jest",
+        "RAF",
+        "animation",
+        "frame",
+        "Adobe",
+        "spectrum"
+    ],
+    "author": "Eduardo Vargas <eduardo@adobe.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/evargast/MockRequestAnimationFrame/issues"
+    },
+    "homepage": "https://github.com/evargast/MockRequestAnimationFrame#readme",
+    "devDependencies": {
+        "@types/jest": "^26.0.8"
+    },
+    "dependencies": {
+        "eslint": "^7.6.0",
+        "typescript": "^3.9.7",
+        "@types/react": "^16.9.44",
+        "jest": "^26.2.2",
+        "react": "^16.13.1"
+    },
+    "peerDependencies": {
+        "jest": "23 - 25"
+    }
+}

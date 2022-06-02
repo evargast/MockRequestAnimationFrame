@@ -1,3 +1,8 @@
+/**
+ * This helper function is intended to be used with Jest. It will fully mock a [request animation frame](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) (RAF). 
+ * 
+ * Specially designed for [Adobe React Spectrum](https://react-spectrum.adobe.com/react-spectrum/index.html) components but will work for any library that requires to mock a RAF.
+ */
 function mockRequestAnimationFrame(): void {
   let offsetWidth: jest.SpyInstance<number, []>;
   let offsetHeight: jest.SpyInstance<number, []>;

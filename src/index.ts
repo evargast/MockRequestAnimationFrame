@@ -38,12 +38,10 @@ function mockRequestAnimationFrame(): void {
     jest.runAllTimers();
     offsetWidth.mockReset();
     offsetHeight.mockReset();
-  });
-
-  afterAll(function () {
     /* Reset everything so all other tests can run without interference */
     jest.useRealTimers();
   });
+
 }
 
 export default mockRequestAnimationFrame;

@@ -1,6 +1,6 @@
 {
     "name": "mock-request-animation-frame",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Helper function for Jest + RAF",
     "main": "./lib/index.js",
     "module": "./lib/index.js",

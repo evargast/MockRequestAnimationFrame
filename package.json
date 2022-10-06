@@ -1,6 +1,6 @@
 {
     "name": "mock-request-animation-frame",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "description": "Helper function for Jest + RAF",
     "main": "./lib/index.js",
     "module": "./lib/index.js",
@@ -52,10 +52,10 @@
         "webpack-cli": "^3.3.12"
     },
     "dependencies": {
-        "jest": "23 - 25"
+        "jest": "23 - 27"
     },
     "peerDependencies": {
-        "jest": "23 - 25"
+        "jest": "23 - 27"
     },
     "publishConfig": {
         "access": "public"
